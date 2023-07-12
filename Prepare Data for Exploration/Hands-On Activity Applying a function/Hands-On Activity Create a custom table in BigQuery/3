@@ -1,0 +1,6 @@
+SELECT name, count FROM `spry-sequence-336713.babynames2.names_2014`
+WHERE gender = 'M'
+ORDER BY
+count DESC
+LIMIT 
+10;
